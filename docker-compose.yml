@@ -27,6 +27,7 @@ services:
     environment:
       - DEMO_DATA=1 # install demo data, set to 0 if you want clean install
       - WEB_CONCURRENCY=2
+      - SUPERDESK_URL=http://localhost:8080/api
       - SUPERDESK_CLIENT_URL=http://localhost:8080
       - CONTENTAPI_URL=http://localhost:8080/capi
       - MONGO_URI=mongodb://mongodb/superdesk
